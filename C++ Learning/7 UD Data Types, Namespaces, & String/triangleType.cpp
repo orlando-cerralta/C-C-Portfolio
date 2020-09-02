@@ -38,7 +38,7 @@ int main() {
             cin.ignore(100, '\n');
             cout << endl << "Error, please enter the length of each side again: ";
             // reset value of sides to prevent user from prematurely exiting loop 
-            //      due to side effects of input failure
+            //      due to side effects of clearing input failure
             initializeSides(side1, side2, side3);
         }
         // otherwise, check if the user inputs a negative number
